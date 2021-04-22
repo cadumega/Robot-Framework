@@ -1,29 +1,24 @@
 *** Settings ***
-Library       SeleniumLibrary
-
+Library         SeleniumLibrary
 
 *** Variables ***
-${BROWSER}    chrome
-${URL}        http://automationpractice.com/
-
-
+${BROWSER}      chrome
+${URL}          http://automationpractice.com/
 
 *** Keywords ***
 ### SETUP e TEARDOWN
 Abrir navegador
-  Open Browser    about:blank      ${BROWSER}
+Open Browser    about:blank  ${BROWSER}     
 
 Fechar navegador
-  Close Browser
-
+Close Browser
 
 ### Passo a passo para testar:
 # Acessar a página home do site
-#   Go To http://automationpractice.com
-#   Title Should Be    My Store
-
+#  Go To http://automationpractice.com
+#  Title Should Be  My Store
 # Digitar o nome do produto "${PRODUTO}" no campo de pesquisa
-#     Input Text    name=search_query    ${PRODUTO}
+#  Input Text  name=search_query  ${PRODUTO}
 #
 # Clicar no botão Pesquisar
-#   Click Element    name=submit_search
+#  Click Element  name=submit_search
