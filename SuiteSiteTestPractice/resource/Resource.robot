@@ -3,22 +3,17 @@ Library         SeleniumLibrary
 
 *** Variables ***
 ${BROWSER}      chrome
-${URL}          http://automationpractice.com/
+${URL}          http://automationpractice.com
 
 *** Keywords ***
-### SETUP e TEARDOWN
+### SETUP
 Abrir navegador
-Open Browser    about:blank  ${BROWSER}     
+    Open Browser    about:blank  ${BROWSER}
 
+### TEARDOWN
 Fechar navegador
-Close Browser
+    Close Browser
 
-### Passo a passo para testar:
-# Acessar a página home do site
-#  Go To http://automationpractice.com
-#  Title Should Be  My Store
-# Digitar o nome do produto "${PRODUTO}" no campo de pesquisa
-#  Input Text  name=search_query  ${PRODUTO}
-#
-# Clicar no botão Pesquisar
-#  Click Element  name=submit_search
+Acessar a página home do SuiteSiteTestPractice
+    Go To    http://automationpractice.com
+    Title Should Be    My Store
