@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.1 (Python 3.9.4 on win32)" generated="20210421 21:15:42.260" rpa="false" schemaversion="2">
+<suite id="s1" name="TestSitePractice" source="K:\ProjetosRobot\SuiteSiteTestPractice\tests\TestSitePractice.robot">
+<test id="s1-t1" name="Caso de Teste 01: Pesquisar produto existente">
+<kw name="Abrir navegador" type="SETUP">
+<msg timestamp="20210421 21:15:42.325" level="FAIL">No keyword with name 'Abrir navegador' found.</msg>
+<status status="FAIL" starttime="20210421 21:15:42.325" endtime="20210421 21:15:42.325"/>
+</kw>
+<kw name="Fechar navegador" type="TEARDOWN">
+<msg timestamp="20210421 21:15:42.330" level="FAIL">No keyword with name 'Fechar navegador' found.</msg>
+<status status="FAIL" starttime="20210421 21:15:42.330" endtime="20210421 21:15:42.330">No keyword with name 'Fechar navegador' found.</status>
+</kw>
+<status status="FAIL" starttime="20210421 21:15:42.320" endtime="20210421 21:15:42.331">Setup failed:
+No keyword with name 'Abrir navegador' found.
+
+Also teardown failed:
+No keyword with name 'Fechar navegador' found.</status>
+</test>
+<status status="FAIL" starttime="20210421 21:15:42.260" endtime="20210421 21:15:42.335"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TestSitePractice">TestSitePractice</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210421 21:15:42.317" level="ERROR">Error in file 'K:\ProjetosRobot\SuiteSiteTestPractice\tests\TestSitePractice.robot' on line 2: Resource file '..TestSitePractice.robot' does not exist.</msg>
+</errors>
+</robot>
